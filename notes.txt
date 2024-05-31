@@ -1,0 +1,28 @@
+
+
+
+Data Repositories 
+  * User
+     First Name
+     Last Name
+     Email Address
+     User Name
+     Password
+     Created Date 
+     Updated Date
+      
+  * Products
+      Product Name
+      Product Description
+      Product Id
+      Created Date 
+      Updated Date
+      Product MRP
+      
+
+
+
+----------------------------------------
+Starting From DB 
+   used Gorm 
+      User And Product tables 

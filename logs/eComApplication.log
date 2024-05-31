@@ -1,0 +1,3 @@
+{"level":"INFO","ts":"2024-05-31T23:30:12.539+0530","caller":"logs/applicationLog.go:58","msg":"Establishing DB connection"}
+{"level":"INFO","ts":"2024-05-31T23:30:12.540+0530","caller":"logs/applicationLog.go:58","msg":"hiteshm:qwerty@tcp(localhost:3306)/ecomdb"}
+{"level":"INFO","ts":"2024-05-31T23:30:12.664+0530","caller":"logs/applicationLog.go:58","msg":"Connected to the database"}
