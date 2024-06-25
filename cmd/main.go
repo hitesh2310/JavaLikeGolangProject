@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"main/config"
+	"main/pkg/router"
 )
 
 func init() {
@@ -12,4 +13,6 @@ func init() {
 
 func main() {
 
+	server := router.NewServer()
+	server.ListenAndServe()
 }

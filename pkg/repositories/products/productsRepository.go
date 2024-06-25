@@ -1,4 +1,4 @@
-package products
+package repository
 
 import (
 	"main/logs"
@@ -25,7 +25,7 @@ func (productRepo *ProductRepository) CreateProduct(newProduct models.Product) {
 	}
 }
 
-func (productRepo *ProductRepository) UpdateProduct(id string, updatedProduct *models.Product) {
+func (productRepo *ProductRepository) UpdateProduct(id string, updatedProduct models.Product) {
 
 	result := productRepo.Db.Model(&models.Product{}).Where("id = ?", id).Updates(updatedProduct)
 	if result.Error != nil {
@@ -44,7 +44,7 @@ func (productRepo *ProductRepository) GetProduct(id string) *models.Product {
 	return &product
 }
 
-func (productRepo *ProductRepository) GetAllProduct() []models.Product {
+func (productRepo *ProductRepository) GetAllProducts() []models.Product {
 
 	var products []models.Product
 
@@ -55,4 +55,14 @@ func (productRepo *ProductRepository) GetAllProduct() []models.Product {
 	}
 
 	return products
+}
+
+func (productRepo *ProductRepository) DeleteProduct(id string) {
+
+	result := productRepo.Db.Where("id = ?", id).Delete(&models.Product{})
+	if result.Error != nil {
+		logs.ErrorLog("Error deleting product from database: %v", result.Error)
+		return
+	}
+
 }

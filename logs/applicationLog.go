@@ -55,10 +55,20 @@ func SetUpApplicationLogs() {
 
 func InfoLog(format string, a ...interface{}) {
 	stringMessage := fmt.Sprintf(format, a...)
-	ApplicationLog.Info(stringMessage)
+	if ApplicationLog != nil {
+		ApplicationLog.Info(stringMessage)
+	} else {
+		fmt.Println(stringMessage)
+	}
+
 }
 
 func ErrorLog(format string, a ...interface{}) {
 	stringMessage := fmt.Sprintf(format, a...)
-	ApplicationLog.Error(stringMessage)
+	if ApplicationLog != nil {
+		ApplicationLog.Error(stringMessage)
+	} else {
+		fmt.Println(stringMessage)
+	}
+
 }

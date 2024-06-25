@@ -1,3 +1,15 @@
 {"level":"INFO","ts":"2024-05-31T23:30:12.539+0530","caller":"logs/applicationLog.go:58","msg":"Establishing DB connection"}
 {"level":"INFO","ts":"2024-05-31T23:30:12.540+0530","caller":"logs/applicationLog.go:58","msg":"hiteshm:qwerty@tcp(localhost:3306)/ecomdb"}
 {"level":"INFO","ts":"2024-05-31T23:30:12.664+0530","caller":"logs/applicationLog.go:58","msg":"Connected to the database"}
+{"level":"\u001b[34mINFO\u001b[0m","ts":"2024-05-31T23:41:30.170+0530","caller":"logs/applicationLog.go:58","msg":"Establishing DB connection"}
+{"level":"\u001b[34mINFO\u001b[0m","ts":"2024-05-31T23:41:30.171+0530","caller":"logs/applicationLog.go:58","msg":"hiteshm:qwerty@tcp(localhost:3306)/ecomdb"}
+{"level":"\u001b[34mINFO\u001b[0m","ts":"2024-05-31T23:41:30.222+0530","caller":"logs/applicationLog.go:58","msg":"Connected to the database"}
+{"level":"\u001b[34mINFO\u001b[0m","ts":"2024-05-31T23:42:23.686+0530","caller":"logs/applicationLog.go:58","msg":"Establishing DB connection"}
+{"level":"\u001b[34mINFO\u001b[0m","ts":"2024-05-31T23:42:23.686+0530","caller":"logs/applicationLog.go:58","msg":"hiteshm:qwerty@tcp(localhost:3306)/ecomdb"}
+{"level":"\u001b[34mINFO\u001b[0m","ts":"2024-05-31T23:42:23.727+0530","caller":"logs/applicationLog.go:58","msg":"Connected to the database"}
+{"level":"INFO","ts":"2024-05-31T23:50:02.914+0530","caller":"logs/applicationLog.go:58","msg":"Establishing DB connection"}
+{"level":"INFO","ts":"2024-05-31T23:50:02.914+0530","caller":"logs/applicationLog.go:58","msg":"hiteshm:qwerty@tcp(localhost:3306)/ecomdb"}
+{"level":"INFO","ts":"2024-05-31T23:50:02.950+0530","caller":"logs/applicationLog.go:58","msg":"Connected to the database"}
+{"level":"INFO","ts":"2024-06-06T12:05:42.751+0530","caller":"logs/applicationLog.go:58","msg":"Establishing DB connection"}
+{"level":"INFO","ts":"2024-06-06T12:05:42.755+0530","caller":"logs/applicationLog.go:58","msg":"hiteshm:qwerty@tcp(localhost:3306)/ecomdb"}
+{"level":"INFO","ts":"2024-06-06T12:05:43.054+0530","caller":"logs/applicationLog.go:58","msg":"Connected to the database"}
